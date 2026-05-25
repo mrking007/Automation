@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2 (Python 3.12.3 on win32)" generated="2026-05-25T16:11:52.479098" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2 (Python 3.12.3 on win32)" generated="2026-05-25T18:59:34.303707" rpa="false" schemaversion="5">
 <suite id="s1" name="Automation RobotFramework" source="C:\Users\kumarmt\Music\Automation_RobotFramework">
 <suite id="s1-s1" name="Testcases" source="C:\Users\kumarmt\Music\Automation_RobotFramework\Testcases">
 <suite id="s1-s1-s1" name="orderCompletion" source="C:\Users\kumarmt\Music\Automation_RobotFramework\Testcases\orderCompletion.robot">
 <test id="s1-s1-s1-t1" name="TC01" line="7">
 <kw name="LoginBrowser" owner="LoginDetails">
 <kw name="Set Browser Timeout" owner="Browser">
-<msg time="2026-05-25T16:11:53.240747" level="INFO">Starting Browser process C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js using port 50132</msg>
-<msg time="2026-05-25T16:11:53.241749" level="INFO">Node startup parameters: ['node', 'C:\\Users\\kumarmt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js', '50132']</msg>
+<msg time="2026-05-25T18:59:34.781534" level="INFO">Starting Browser process C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js using port 51786</msg>
+<msg time="2026-05-25T18:59:34.781534" level="INFO">Node startup parameters: ['node', 'C:\\Users\\kumarmt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js', '51786']</msg>
 <arg>20s</arg>
 <tag>Config</tag>
 <tag>Setter</tag>
 <doc>Sets the timeout used by most input and getter keywords.</doc>
-<status status="PASS" start="2026-05-25T16:11:53.139267" elapsed="2.621843"/>
+<status status="PASS" start="2026-05-25T18:59:34.709456" elapsed="1.903851"/>
 </kw>
 <kw name="Open Browser" owner="Browser">
-<msg time="2026-05-25T16:11:55.764111" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
-<msg time="2026-05-25T16:11:55.786630" level="INFO">{"browser": "firefox", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\kumarmt\\Music\\Automation_RobotFramework\\results\\browser\\traces\\e935e0d9-905b-4cef-8056-4c4b5f7896f8"}</msg>
-<msg time="2026-05-25T16:12:03.277992" level="INFO">Successfully created browser with options: {"browser":"firefox","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\kumarmt\\Music\\Automation_RobotFramework\\results\\browser\\traces\\e935e0d9-905b-4cef-8056-4c4b5f7896f8"}</msg>
-<msg time="2026-05-25T16:12:03.279529" level="INFO">{
+<msg time="2026-05-25T18:59:36.614329" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2026-05-25T18:59:36.626534" level="INFO">{"browser": "firefox", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\kumarmt\\Music\\Automation_RobotFramework\\results\\browser\\traces\\c27d1929-7f12-4103-87a4-663088e7350c"}</msg>
+<msg time="2026-05-25T18:59:41.558448" level="INFO">Successfully created browser with options: {"browser":"firefox","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\kumarmt\\Music\\Automation_RobotFramework\\results\\browser\\traces\\c27d1929-7f12-4103-87a4-663088e7350c"}</msg>
+<msg time="2026-05-25T18:59:41.559865" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": true,
   "forcedColors": "none",
@@ -32,166 +32,220 @@
     "height": 720
   }
 }</msg>
-<msg time="2026-05-25T16:12:03.387385" level="INFO">Successfully created context. </msg>
-<msg time="2026-05-25T16:12:03.387385" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
-<msg time="2026-05-25T16:12:14.166469" level="INFO">Successfully initialized new page object and opened url: https://rahulshettyacademy.com/client/#/auth/login</msg>
+<msg time="2026-05-25T18:59:41.703289" level="INFO">Successfully created context. </msg>
+<msg time="2026-05-25T18:59:41.704291" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2026-05-25T18:59:52.455002" level="INFO">Successfully initialized new page object and opened url: https://rahulshettyacademy.com/client/#/auth/login</msg>
 <arg>${url}</arg>
 <arg>firefox</arg>
 <arg>headless=false</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
-<status status="PASS" start="2026-05-25T16:11:55.762110" elapsed="18.414375"/>
+<status status="PASS" start="2026-05-25T18:59:36.613307" elapsed="15.842722"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2026-05-25T16:12:14.182481" level="INFO">Fills the text 'mathankumar9488@gmail.com' in the given field.</msg>
+<msg time="2026-05-25T18:59:52.460021" level="INFO">Fills the text 'mathankumar9488@gmail.com' in the given field.</msg>
 <arg>${username}</arg>
 <arg>mathankumar9488@gmail.com</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-05-25T16:12:14.178486" elapsed="0.356310"/>
+<status status="PASS" start="2026-05-25T18:59:52.457018" elapsed="0.176727"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2026-05-25T16:12:14.539205" level="INFO">Fills the text 'Mathan9488@1' in the given field.</msg>
+<msg time="2026-05-25T18:59:52.636751" level="INFO">Fills the text 'Mathan9488@1' in the given field.</msg>
 <arg>${password}</arg>
 <arg>Mathan9488@1</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-05-25T16:12:14.535987" elapsed="0.452478"/>
+<status status="PASS" start="2026-05-25T18:59:52.634743" elapsed="0.105520"/>
 </kw>
 <kw name="Promise To" owner="Browser">
-<msg time="2026-05-25T16:12:15.095865" level="INFO">${promise} = &lt;Future at 0x23500726510 state=running&gt;</msg>
+<msg time="2026-05-25T18:59:52.764713" level="INFO">${promise} = &lt;Future at 0x22120997380 state=running&gt;</msg>
 <var>${promise}</var>
 <arg>Wait For Response</arg>
 <arg>https://rahulshettyacademy.com/api/ecom/auth/login</arg>
 <tag>Wait</tag>
 <doc>Wrap a Browser library keyword and make it a promise.</doc>
-<status status="PASS" start="2026-05-25T16:12:14.995731" elapsed="0.106139"/>
+<status status="PASS" start="2026-05-25T18:59:52.743321" elapsed="0.025377"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2026-05-25T16:12:15.107870" level="INFO">Clicks the element '//*[@id="login"]'.</msg>
+<msg time="2026-05-25T18:59:52.771900" level="INFO">Clicks the element '//*[@id="login"]'.</msg>
 <arg>${submit}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-05-25T16:12:15.103879" elapsed="0.395013"/>
+<status status="PASS" start="2026-05-25T18:59:52.769697" elapsed="0.299232"/>
 </kw>
 <kw name="Wait For" owner="Browser">
-<msg time="2026-05-25T16:12:15.602519" level="INFO">${response} = {'status': 200, 'body': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQxNDg3YmY4NmJhNTFhNjU0NmUxYTIiLCJ1c2VyRW1haWwiOiJtYXRoYW5rdW1hcjk0ODhAZ21haWwuY29tIiwidXNlck1vYmlsZSI6OTQ4ODIzNTA2...</msg>
+<msg time="2026-05-25T18:59:53.211881" level="INFO">${response} = {'status': 200, 'body': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWQxNDg3YmY4NmJhNTFhNjU0NmUxYTIiLCJ1c2VyRW1haWwiOiJtYXRoYW5rdW1hcjk0ODhAZ21haWwuY29tIiwidXNlck1vYmlsZSI6OTQ4ODIzNTA2...</msg>
 <var>${response}</var>
 <arg>${promise}</arg>
 <tag>Wait</tag>
 <doc>Waits for promises to finish and returns results from them.</doc>
-<status status="PASS" start="2026-05-25T16:12:15.499930" elapsed="0.104597"/>
+<status status="PASS" start="2026-05-25T18:59:53.074912" elapsed="0.137983"/>
 </kw>
 <if>
 <branch type="IF" condition="${response.status} != 200">
 <kw name="Fail" owner="BuiltIn">
 <arg>${response.body}</arg>
 <doc>Fails the test with the given message and optionally alters its tags.</doc>
-<status status="NOT RUN" start="2026-05-25T16:12:15.607491" elapsed="0.000000"/>
+<status status="NOT RUN" start="2026-05-25T18:59:53.214913" elapsed="0.000000"/>
 </kw>
-<status status="NOT RUN" start="2026-05-25T16:12:15.605486" elapsed="0.003006"/>
+<status status="NOT RUN" start="2026-05-25T18:59:53.213896" elapsed="0.002370"/>
 </branch>
-<status status="PASS" start="2026-05-25T16:12:15.605486" elapsed="0.003006"/>
+<status status="PASS" start="2026-05-25T18:59:53.212895" elapsed="0.003371"/>
 </if>
-<status status="PASS" start="2026-05-25T16:11:53.136714" elapsed="22.471778"/>
+<status status="PASS" start="2026-05-25T18:59:34.707434" elapsed="18.508832"/>
 </kw>
-<status status="PASS" start="2026-05-25T16:11:53.125385" elapsed="22.515820"/>
+<status status="PASS" start="2026-05-25T18:59:34.699489" elapsed="18.519794"/>
 </test>
 <test id="s1-s1-s1-t2" name="Tc02" line="9">
 <kw name="OrderCompletion" owner="orderCompletion">
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-05-25T16:12:16.260044" level="INFO">Waited for Element with selector (//button[contains(@class,"btn w-10 rounded")])[1] at state enabled</msg>
+<msg time="2026-05-25T18:59:54.078307" level="INFO">Waited for Element with selector (//button[contains(@class,"btn w-10 rounded")])[1] at state enabled</msg>
 <arg>${AddToCart}</arg>
 <arg>enabled</arg>
 <arg>20s</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-05-25T16:12:15.723267" elapsed="0.537804"/>
+<status status="PASS" start="2026-05-25T18:59:53.279023" elapsed="0.801379"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2026-05-25T16:12:16.265252" level="INFO">Clicks the element '(//button[contains(@class,"btn w-10 rounded")])[1]'.</msg>
+<msg time="2026-05-25T18:59:54.082417" level="INFO">Clicks the element '(//button[contains(@class,"btn w-10 rounded")])[1]'.</msg>
 <arg>${AddToCart}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-05-25T16:12:16.262059" elapsed="0.230636"/>
+<status status="PASS" start="2026-05-25T18:59:54.080402" elapsed="0.176195"/>
 </kw>
 <kw name="Get Url" owner="Browser">
-<msg time="2026-05-25T16:12:16.511528" level="INFO">${url} = https://rahulshettyacademy.com/client/#/dashboard/dash</msg>
+<msg time="2026-05-25T18:59:54.266570" level="INFO">${url} = https://rahulshettyacademy.com/client/#/dashboard/dash</msg>
 <var>${url}</var>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns the current URL.</doc>
-<status status="PASS" start="2026-05-25T16:12:16.492695" elapsed="0.019832"/>
+<status status="PASS" start="2026-05-25T18:59:54.257563" elapsed="0.010003"/>
 </kw>
 <if>
 <branch type="IF" condition="'${url} == https://rahulshettyacademy.com/client/#/dashboard/dash'">
-<kw name="Pass Execution" owner="BuiltIn">
-<msg time="2026-05-25T16:12:16.518081" level="INFO">Execution passed with message:
-Dashboard page is reached</msg>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-05-25T18:59:54.283570" level="INFO">Dashboard page is reached</msg>
 <arg>Dashboard page is reached</arg>
-<doc>Skips rest of the current test, setup, or teardown with PASS status.</doc>
-<status status="PASS" start="2026-05-25T16:12:16.517076" elapsed="0.002379">Dashboard page is reached</status>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-05-25T18:59:54.281574" elapsed="0.002992"/>
 </kw>
-<status status="PASS" start="2026-05-25T16:12:16.513526" elapsed="0.006953">Dashboard page is reached</status>
+<status status="PASS" start="2026-05-25T18:59:54.268569" elapsed="0.016992"/>
 </branch>
 <branch type="ELSE">
 <kw name="Fail" owner="BuiltIn">
 <arg>Dashboard page not reached</arg>
 <doc>Fails the test with the given message and optionally alters its tags.</doc>
-<status status="NOT RUN" start="2026-05-25T16:12:16.521477" elapsed="0.002015"/>
+<status status="NOT RUN" start="2026-05-25T18:59:54.287709" elapsed="0.002345"/>
 </kw>
-<status status="NOT RUN" start="2026-05-25T16:12:16.520479" elapsed="0.004025"/>
+<status status="NOT RUN" start="2026-05-25T18:59:54.285561" elapsed="0.005567"/>
 </branch>
-<status status="PASS" start="2026-05-25T16:12:16.513526" elapsed="0.010978">Dashboard page is reached</status>
+<status status="PASS" start="2026-05-25T18:59:54.268569" elapsed="0.022559"/>
 </if>
 <kw name="Get Text" owner="Browser">
+<msg time="2026-05-25T18:59:55.495607" level="INFO">Text: 'Product Added To Cart'</msg>
+<msg time="2026-05-25T18:59:55.498003" level="INFO">${actual} = Product Added To Cart</msg>
 <var>${actual}</var>
-<arg>css=#toast-container</arg>
-<arg>5s</arg>
+<arg>selector=${thoastMessage}</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-05-25T16:12:16.524504" elapsed="0.001235"/>
+<status status="PASS" start="2026-05-25T18:59:54.292526" elapsed="1.206481"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${actual}</arg>
 <arg>${expected}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="NOT RUN" start="2026-05-25T16:12:16.526759" elapsed="0.001231"/>
+<status status="PASS" start="2026-05-25T18:59:55.499007" elapsed="0.001996"/>
 </kw>
 <kw name="Click" owner="Browser">
+<msg time="2026-05-25T18:59:55.510499" level="INFO">Clicks the element '//button[@routerlink='/dashboard/cart']'.</msg>
 <arg>${cartPage}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-05-25T16:12:16.527990" elapsed="0.001015"/>
+<status status="PASS" start="2026-05-25T18:59:55.502449" elapsed="0.277103"/>
 </kw>
-<kw name="Get Url" owner="Browser">
-<var>${cartUrl}</var>
-<tag>Assertion</tag>
-<tag>Getter</tag>
+<kw name="Go To" owner="Browser">
+<msg time="2026-05-25T18:59:55.822153" level="INFO">Successfully opened URL https://rahulshettyacademy.com/client/#/dashboard/cart</msg>
+<arg>https://rahulshettyacademy.com/client/#/dashboard/cart</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Navigates to the given ``url``.</doc>
+<status status="PASS" start="2026-05-25T18:59:55.779552" elapsed="0.043601"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-05-25T18:59:55.826148" level="INFO">Clicks the element '//*[text()="Checkout"]'.</msg>
+<arg>${checkOut}</arg>
 <tag>PageContent</tag>
-<doc>Returns the current URL.</doc>
-<status status="NOT RUN" start="2026-05-25T16:12:16.530005" elapsed="0.000000"/>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-05-25T18:59:55.824163" elapsed="0.301197"/>
 </kw>
-<status status="PASS" start="2026-05-25T16:12:15.707930" elapsed="0.823092">Dashboard page is reached</status>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-05-25T18:59:56.347766" level="INFO">Waited for Element with selector //input[@placeholder="Select Country"] at state enabled</msg>
+<arg>${selectCountry}</arg>
+<arg>enabled</arg>
+<arg>20s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-05-25T18:59:56.127362" elapsed="0.221419"/>
 </kw>
-<msg time="2026-05-25T16:12:16.574328" level="INFO">Set timeout to: 20000</msg>
-<status status="PASS" start="2026-05-25T16:12:15.663806" elapsed="0.869207">Dashboard page is reached</status>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-05-25T18:59:56.351023" level="INFO">Fills the text 'India' in the given field.</msg>
+<arg>${selectCountry}</arg>
+<arg>India</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-05-25T18:59:56.348781" elapsed="0.186595"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-05-25T18:59:56.539099" level="INFO">Clicks the element '(//span[contains(@class,"ng-star-inserted")])[2]'.</msg>
+<arg>${clickSearch}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-05-25T18:59:56.535376" elapsed="10.063872"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-05-25T19:00:06.642176" level="INFO">Waited for Element with selector //*[text()="Place Order "] at state enabled</msg>
+<arg>${placeOrder}</arg>
+<arg>enabled</arg>
+<arg>20s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-05-25T19:00:06.600260" elapsed="0.041916"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-05-25T19:00:06.644436" level="INFO">Clicks the element '//*[text()="Place Order "]'.</msg>
+<arg>${placeOrder}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-05-25T19:00:06.643187" elapsed="0.168080"/>
+</kw>
+<status status="PASS" start="2026-05-25T18:59:53.268963" elapsed="13.542304"/>
+</kw>
+<msg time="2026-05-25T19:00:06.827302" level="INFO">Set timeout to: 20000</msg>
+<status status="PASS" start="2026-05-25T18:59:53.244519" elapsed="13.568162"/>
 </test>
-<status status="PASS" start="2026-05-25T16:11:52.640536" elapsed="24.253982"/>
+<status status="PASS" start="2026-05-25T18:59:34.372783" elapsed="32.461571"/>
 </suite>
-<status status="PASS" start="2026-05-25T16:11:52.578589" elapsed="24.382153"/>
+<status status="PASS" start="2026-05-25T18:59:34.364191" elapsed="32.513561"/>
 </suite>
-<status status="PASS" start="2026-05-25T16:11:52.498207" elapsed="24.501243"/>
+<status status="PASS" start="2026-05-25T18:59:34.315227" elapsed="32.576899"/>
 </suite>
 <statistics>
 <total>
@@ -206,6 +260,6 @@ Dashboard page is reached</msg>
 </suite>
 </statistics>
 <errors>
-<msg time="2026-05-25T16:11:55.764111" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2026-05-25T18:59:36.614329" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
 </errors>
 </robot>
