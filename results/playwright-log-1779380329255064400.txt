@@ -1,0 +1,84 @@
+{"level":30,"time":"2026-05-21T16:18:51.277Z","pid":34976,"hostname":"BAKUMARMT","msg":"Listening on 63618"}
+(node:34976) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2026-05-21T16:18:51.886Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-05-21T16:18:57.288Z","pid":34976,"hostname":"BAKUMARMT","msg":"Adding browser to stack: firefox, version: 131.0"}
+{"level":30,"time":"2026-05-21T16:18:57.290Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-05-21T16:18:57.290Z","pid":34976,"hostname":"BAKUMARMT","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-05-21T16:18:57.305Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-05-21T16:18:57.306Z","pid":34976,"hostname":"BAKUMARMT","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2026-05-21T16:18:57.306Z","pid":34976,"hostname":"BAKUMARMT","msg":"Trace file: "}
+{"level":30,"time":"2026-05-21T16:18:57.474Z","pid":34976,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-21T16:18:57.475Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method newContext"}
+{"level":30,"time":"2026-05-21T16:18:57.489Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-05-21T16:18:57.490Z","pid":34976,"hostname":"BAKUMARMT","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2026-05-21T16:19:05.670Z","pid":34976,"hostname":"BAKUMARMT","msg":"Video path: undefined"}
+{"level":30,"time":"2026-05-21T16:19:05.670Z","pid":34976,"hostname":"BAKUMARMT","msg":"Changed active page"}
+{"level":30,"time":"2026-05-21T16:19:08.420Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method newPage"}
+{"level":30,"time":"2026-05-21T16:19:13.439Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-21T16:19:13.441Z","pid":34976,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@id=\"userEmail\"] in page."}
+{"level":30,"time":"2026-05-21T16:19:13.596Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-21T16:19:13.612Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-21T16:19:13.612Z","pid":34976,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@id=\"userPassword\"] in page."}
+{"level":30,"time":"2026-05-21T16:19:13.683Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-21T16:19:13.695Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-21T16:19:13.697Z","pid":34976,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@id=\"login\"] in page."}
+{"level":30,"time":"2026-05-21T16:19:13.901Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method click"}
+{"level":30,"time":"2026-05-21T16:19:13.948Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-21T16:19:13.959Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-21T16:19:13.971Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-21T16:19:13.986Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-21T16:19:13.998Z","pid":34976,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-21T16:19:13.998Z","pid":34976,"hostname":"BAKUMARMT","msg":"Changing current active page: page=d629c09d-620e-44d9-905e-91d8b2e1e267"}
+{"level":30,"time":"2026-05-21T16:19:13.999Z","pid":34976,"hostname":"BAKUMARMT","msg":"Changed active page"}
+{"level":30,"time":"2026-05-21T16:19:14.013Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-21T16:19:14.019Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-21T16:19:14.026Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2026-05-21T16:19:14.027Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2026-05-21T16:19:14.036Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2026-05-21T16:19:14.040Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2026-05-21T16:19:14.048Z","pid":34976,"hostname":"BAKUMARMT","msg":"Changing current active page: page=d629c09d-620e-44d9-905e-91d8b2e1e267"}
+{"level":30,"time":"2026-05-21T16:19:14.048Z","pid":34976,"hostname":"BAKUMARMT","msg":"Changed active page"}
+{"level":30,"time":"2026-05-21T16:19:14.063Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-21T16:19:14.068Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-21T16:19:14.077Z","pid":34976,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-21T16:19:14.077Z","pid":34976,"hostname":"BAKUMARMT","msg":"Changing current active page: page=d629c09d-620e-44d9-905e-91d8b2e1e267"}
+{"level":30,"time":"2026-05-21T16:19:14.077Z","pid":34976,"hostname":"BAKUMARMT","msg":"Changed active page"}
+{"level":30,"time":"2026-05-21T16:19:14.083Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-05-21T16:19:14.117Z","pid":34976,"hostname":"BAKUMARMT","msg":"Removed page=2a84779b-33ef-4a00-bd9c-9fdf34b4cff5 from context=e273121f-04a1-481c-8573-8d5f96071130 page stack"}
+{"level":30,"time":"2026-05-21T16:19:14.178Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-05-21T16:19:14.385Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-21T16:19:14.386Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-21T16:19:14.400Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method waitForNavigation"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11602:24)
+    at PlaywrightServer.waitForNavigation (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11639:54)
+    at Object.onReceiveHalfClose (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-05-21T16:19:14.401Z","pid":34976,"hostname":"BAKUMARMT","msg":"Error of node method waitForNavigation"}
+{"level":30,"time":"2026-05-21T16:19:14.492Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9508:11)
+    at takeScreenshot (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9552:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11611:34)
+    at Object.onReceiveHalfClose (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-05-21T16:19:14.492Z","pid":34976,"hostname":"BAKUMARMT","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2026-05-21T16:43:42.293Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-21T16:43:42.293Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-21T16:43:42.320Z","pid":34976,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-21T16:43:42.320Z","pid":34976,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}

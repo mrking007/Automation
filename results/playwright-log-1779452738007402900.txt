@@ -1,0 +1,161 @@
+{"level":30,"time":"2026-05-22T12:25:40.192Z","pid":12112,"hostname":"BAKUMARMT","msg":"Listening on 52367"}
+(node:12112) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2026-05-22T12:25:40.690Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-05-22T12:25:45.872Z","pid":12112,"hostname":"BAKUMARMT","msg":"Adding browser to stack: firefox, version: 131.0"}
+{"level":30,"time":"2026-05-22T12:25:45.873Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-05-22T12:25:45.873Z","pid":12112,"hostname":"BAKUMARMT","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-05-22T12:25:45.885Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-05-22T12:25:45.886Z","pid":12112,"hostname":"BAKUMARMT","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2026-05-22T12:25:45.886Z","pid":12112,"hostname":"BAKUMARMT","msg":"Trace file: "}
+{"level":30,"time":"2026-05-22T12:25:46.041Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-22T12:25:46.043Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method newContext"}
+{"level":30,"time":"2026-05-22T12:25:46.056Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-05-22T12:25:46.057Z","pid":12112,"hostname":"BAKUMARMT","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2026-05-22T12:25:53.493Z","pid":12112,"hostname":"BAKUMARMT","msg":"Video path: undefined"}
+{"level":30,"time":"2026-05-22T12:25:53.493Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changed active page"}
+{"level":30,"time":"2026-05-22T12:25:56.660Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method newPage"}
+{"level":30,"time":"2026-05-22T12:26:01.688Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-22T12:26:01.689Z","pid":12112,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@id=\"userEmail\"] in page."}
+{"level":30,"time":"2026-05-22T12:26:01.943Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-22T12:26:01.963Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-22T12:26:01.964Z","pid":12112,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@id=\"userPassword\"] in page."}
+{"level":30,"time":"2026-05-22T12:26:02.089Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-22T12:26:02.106Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-22T12:26:02.107Z","pid":12112,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@id=\"login\"] in page."}
+{"level":30,"time":"2026-05-22T12:26:02.312Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method click"}
+{"level":30,"time":"2026-05-22T12:26:02.347Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:26:02.358Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:26:02.373Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:26:02.386Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:26:02.396Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-22T12:26:02.396Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changing current active page: page=23b6b74b-510b-4dbc-872b-4739381745bc"}
+{"level":30,"time":"2026-05-22T12:26:02.396Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changed active page"}
+{"level":30,"time":"2026-05-22T12:26:02.408Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:26:02.421Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:26:02.427Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T12:26:02.428Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T12:26:02.437Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T12:26:02.439Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T12:26:02.452Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changing current active page: page=23b6b74b-510b-4dbc-872b-4739381745bc"}
+{"level":30,"time":"2026-05-22T12:26:02.452Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changed active page"}
+{"level":30,"time":"2026-05-22T12:26:02.469Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:26:02.476Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:26:02.481Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-22T12:26:02.481Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changing current active page: page=23b6b74b-510b-4dbc-872b-4739381745bc"}
+{"level":30,"time":"2026-05-22T12:26:02.481Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changed active page"}
+{"level":30,"time":"2026-05-22T12:26:02.490Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-05-22T12:26:02.534Z","pid":12112,"hostname":"BAKUMARMT","msg":"Removed page=b42acbc2-820d-46da-ac8c-3a4ed98e8781 from context=c16d2966-0b96-460d-b317-5fca74658b85 page stack"}
+{"level":30,"time":"2026-05-22T12:26:02.597Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-05-22T12:26:02.675Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:26:02.676Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:26:02.694Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-05-22T12:26:02.695Z","pid":12112,"hostname":"BAKUMARMT","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2026-05-22T12:26:02.782Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-22T12:26:05.368Z","pid":12112,"hostname":"BAKUMARMT","msg":"Video path: undefined"}
+{"level":30,"time":"2026-05-22T12:26:05.368Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changed active page"}
+{"level":30,"time":"2026-05-22T12:26:08.228Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method newPage"}
+{"level":30,"time":"2026-05-22T12:26:08.244Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-22T12:26:08.245Z","pid":12112,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with (//*[@class=\"fa fa-shopping-cart\"])[3] in page."}
+{"level":30,"time":"2026-05-22T12:26:18.256Z","pid":12112,"hostname":"BAKUMARMT","msg":"Error of node method  click"}
+================= Original suppressed error =================
+locator.click: Timeout 10000ms exceeded.
+Call log:
+  [2m- waiting for locator('xpath=(//*[@class="fa fa-shopping-cart"])[3]')[22m
+
+    at internalClick (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10575:19)
+    at async click (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10556:18)
+    at async PlaywrightServer.click (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11611:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2026-05-22T12:26:18.387Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2026-05-22T12:26:18.387Z","pid":12112,"hostname":"BAKUMARMT","Take screenshot with options: ":{"path":"C:\\Users\\kumarmt\\Music\\Automation_RobotFramework\\results\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2026-05-22T12:26:18.726Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2026-05-22T12:29:33.636Z","pid":12112,"hostname":"BAKUMARMT","msg":"Removed page=28f86785-2d43-438d-ab91-121c250d321c from context=80fadf07-068e-4497-adc9-0099db74255f page stack"}
+{"level":30,"time":"2026-05-22T12:31:30.072Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.072Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.080Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.087Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-22T12:31:30.080Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.093Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.093Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.100Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T12:31:30.100Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T12:31:30.107Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T12:31:30.107Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T12:31:30.122Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.122Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.129Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-22T12:31:30.133Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method closeContext"}
+================= Original suppressed error =================
+browserContext.close: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\firefox-1465\firefox\firefox.exe -no-remote -wait-for-browser -foreground -profile C:\Users\kumarmt\AppData\Local\Temp\playwright_firefoxdev_profile-ox0jYm -juggler-pipe -silent
+<launched> pid=26720
+[pid=26720][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 116: unreachable code after return statement
+[pid=26720][out] console.warn: services.settings: Ignoring preference override of remote settings server
+[pid=26720][out] console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[pid=26720][out] console.error: ({})
+[pid=26720][out] 
+[pid=26720][out] Juggler listening to the pipe
+[pid=26720][out] console.error: "Warning: unrecognized command line flag" "-foreground"
+[pid=26720][out] console.error: SearchEngineSelector: "Received empty search configuration!"
+[pid=26720][out] console.error: SearchEngineSelector: "Received empty search configuration!"
+[pid=26720][out] console.error: SearchService: "#init: failure initializing search:" ({})
+[pid=26720][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 76: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings
+[pid=26720][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 76: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings
+[pid=26720][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 76: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings
+[pid=26720][err] JavaScript error: resource:///modules/SearchModeSwitcher.sys.mjs, line 254: TypeError: engine is null
+[pid=26720][out] console.error: "Received empty top sites configuration!"
+[pid=26720][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 76: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings
+[pid=26720][out] console.error: "Received empty top sites configuration!"
+[pid=26720][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[pid=26720][out] console.error: SearchSettings: "_write: Could not write to settings file:" (new Error("cannot write without any engine.", "resource://gre/modules/SearchSettings.sys.mjs", 335))
+[pid=26720][out] console.error: WebExtensions: 
+[pid=26720][out]   Message: [Exception... "Failed to get engine data from Remote Settings"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/SearchEngineSelector.sys.mjs :: getEngineConfiguration :: line 76"  data: no]
+[pid=26720][out]   Stack:
+[pid=26720][out]     getEngineConfiguration@resource://gre/modules/SearchEngineSelector.sys.mjs:76:24
+[pid=26720][out] 
+[pid=26720][err] JavaScript error: resource:///modules/SearchModeSwitcher.sys.mjs, line 254: TypeError: engine is null
+[pid=26720][out] console.error: URLBar - Provider.UrlbarProviderSearchTips: ({})
+[pid=26720][err] JavaScript error: resource:///modules/SearchModeSwitcher.sys.mjs, line 254: TypeError: engine is null
+[pid=26720][out] console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rahulshettyacademy.com."
+[pid=26720][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[pid=26720][err] JavaScript error: resource:///modules/SearchModeSwitcher.sys.mjs, line 254: TypeError: engine is null
+[pid=26720][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 76: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings
+[pid=26720][err] JavaScript error: resource:///modules/SearchModeSwitcher.sys.mjs, line 254: TypeError: engine is null
+[pid=26720][out] console.error: URLBar - Provider.UrlbarProviderSearchTips: ({})
+[pid=26720][err] JavaScript error: resource:///modules/SearchModeSwitcher.sys.mjs, line 254: TypeError: engine is null
+[pid=26720][err] JavaScript error: resource:///modules/SearchModeSwitcher.sys.mjs, line 254: TypeError: engine is null
+[pid=26720][err] JavaScript warning: resource://gre/modules/UpdateService.sys.mjs, line 3900: unreachable code after return statement
+[pid=26720][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 76: NS_ERROR_UNEXPECTED: Failed to get engine data from Remote Settings
+[pid=26720][out] console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/client/#/" ({})
+[pid=26720][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[pid=26720][out] console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://rahulshettyacademy.com/client/#/" ({})
+[pid=26720][err] JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1224: Error: SearchService failed while it was initializing.
+[pid=26720][err] JavaScript error: resource://activity-stream/lib/TopSitesFeed.sys.mjs, line 136: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "SearchService failed while it was initializing." {file: "resource://gre/modules/SearchService.sys.mjs" line: 1224}]'[JavaScript Error: "SearchService failed while it was initializing." {file: "resource://gre/modules/SearchService.sys.mjs" line: 1224}]' when calling method: [nsISearchService::defaultEngine]
+[pid=26720] <gracefully close start>
+[pid=26720] <process did exit: exitCode=3221225786, signal=null>
+[pid=26720] starting temporary directories cleanup
+    at async closeContext (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11247:3)
+    at async PlaywrightServer.closeContext (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11624:28)
+=============================================================
+{"level":30,"time":"2026-05-22T12:31:30.163Z","pid":12112,"hostname":"BAKUMARMT","msg":"Error of node method closeContext"}
+{"level":30,"time":"2026-05-22T12:31:30.414Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.415Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.423Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.423Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.429Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-22T12:31:30.436Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.436Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.442Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T12:31:30.442Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T12:31:30.447Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T12:31:30.448Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T12:31:30.461Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.461Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T12:31:30.466Z","pid":12112,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-22T12:31:30.469Z","pid":12112,"hostname":"BAKUMARMT","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-05-22T12:31:30.470Z","pid":12112,"hostname":"BAKUMARMT","msg":"End of node method closeContext"}

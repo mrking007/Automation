@@ -1,0 +1,57 @@
+{"level":30,"time":"2026-05-22T10:24:38.212Z","pid":37348,"hostname":"BAKUMARMT","msg":"Listening on 62906"}
+(node:37348) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2026-05-22T10:24:38.704Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-05-22T10:24:45.605Z","pid":37348,"hostname":"BAKUMARMT","msg":"Adding browser to stack: firefox, version: 131.0"}
+{"level":30,"time":"2026-05-22T10:24:45.606Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-05-22T10:24:45.606Z","pid":37348,"hostname":"BAKUMARMT","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-05-22T10:24:45.616Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-05-22T10:24:45.617Z","pid":37348,"hostname":"BAKUMARMT","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2026-05-22T10:24:45.617Z","pid":37348,"hostname":"BAKUMARMT","msg":"Trace file: "}
+{"level":30,"time":"2026-05-22T10:24:45.838Z","pid":37348,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-22T10:24:45.839Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method newContext"}
+{"level":30,"time":"2026-05-22T10:24:45.854Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-05-22T10:24:45.854Z","pid":37348,"hostname":"BAKUMARMT","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2026-05-22T10:24:54.000Z","pid":37348,"hostname":"BAKUMARMT","msg":"Video path: undefined"}
+{"level":30,"time":"2026-05-22T10:24:54.001Z","pid":37348,"hostname":"BAKUMARMT","msg":"Changed active page"}
+{"level":30,"time":"2026-05-22T10:25:02.388Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method newPage"}
+{"level":30,"time":"2026-05-22T10:25:07.423Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-22T10:25:07.424Z","pid":37348,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@id=\"userEmail\"] in page."}
+{"level":30,"time":"2026-05-22T10:25:07.760Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-22T10:25:07.797Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-22T10:25:07.798Z","pid":37348,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@id=\"userPassword\"] in page."}
+{"level":30,"time":"2026-05-22T10:25:08.042Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-22T10:25:08.070Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-22T10:25:08.071Z","pid":37348,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@id=\"login\"] in page."}
+{"level":30,"time":"2026-05-22T10:25:08.495Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method click"}
+{"level":30,"time":"2026-05-22T10:25:08.562Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T10:25:08.598Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T10:25:08.611Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T10:25:08.629Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T10:25:08.650Z","pid":37348,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-22T10:25:08.651Z","pid":37348,"hostname":"BAKUMARMT","msg":"Changing current active page: page=f500e0f0-84c7-4add-883f-89e641159bf0"}
+{"level":30,"time":"2026-05-22T10:25:08.651Z","pid":37348,"hostname":"BAKUMARMT","msg":"Changed active page"}
+{"level":30,"time":"2026-05-22T10:25:08.667Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T10:25:08.683Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T10:25:08.695Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T10:25:08.698Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T10:25:08.717Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T10:25:08.719Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2026-05-22T10:25:08.731Z","pid":37348,"hostname":"BAKUMARMT","msg":"Changing current active page: page=f500e0f0-84c7-4add-883f-89e641159bf0"}
+{"level":30,"time":"2026-05-22T10:25:08.732Z","pid":37348,"hostname":"BAKUMARMT","msg":"Changed active page"}
+{"level":30,"time":"2026-05-22T10:25:08.760Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T10:25:08.769Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T10:25:08.783Z","pid":37348,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-22T10:25:08.783Z","pid":37348,"hostname":"BAKUMARMT","msg":"Changing current active page: page=f500e0f0-84c7-4add-883f-89e641159bf0"}
+{"level":30,"time":"2026-05-22T10:25:08.783Z","pid":37348,"hostname":"BAKUMARMT","msg":"Changed active page"}
+{"level":30,"time":"2026-05-22T10:25:08.797Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-05-22T10:25:08.877Z","pid":37348,"hostname":"BAKUMARMT","msg":"Removed page=f96b63ac-0519-41f3-afd1-4bba09958843 from context=d5c5590f-d7ca-46d6-84d2-4377fda8200b page stack"}
+{"level":30,"time":"2026-05-22T10:25:08.998Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-05-22T10:25:09.083Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T10:25:09.083Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T10:27:43.272Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T10:27:43.272Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T10:27:43.286Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T10:27:43.287Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-05-22T10:27:43.333Z","pid":37348,"hostname":"BAKUMARMT","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-05-22T10:27:44.224Z","pid":37348,"hostname":"BAKUMARMT","msg":"End of node method closeAllBrowsers"}

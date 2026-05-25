@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.12.3 on win32)" generated="2026-05-22T16:09:51.733248" rpa="false" schemaversion="5">
+<suite id="s1" name="Automation RobotFramework" source="C:\Users\kumarmt\Music\Automation_RobotFramework">
+<suite id="s1-s1" name="Testcases" source="C:\Users\kumarmt\Music\Automation_RobotFramework\Testcases">
+<suite id="s1-s1-s1" name="LoginDetails" source="C:\Users\kumarmt\Music\Automation_RobotFramework\Testcases\LoginDetails.robot">
+<test id="s1-s1-s1-t1" name="TC01" line="6">
+<kw name="LoginBrowser" owner="LoginDetails">
+<kw name="Open Browser" owner="Browser">
+<msg time="2026-05-22T16:09:52.221080" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2026-05-22T16:09:52.222440" level="INFO">{"browser": "firefox", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\kumarmt\\Music\\Automation_RobotFramework\\browser\\traces\\d0ee3ad2-1c30-4d6c-b62d-d76167a2ba7b"}</msg>
+<msg time="2026-05-22T16:09:52.315783" level="INFO">Starting Browser process C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js using port 51890</msg>
+<msg time="2026-05-22T16:09:52.316764" level="INFO">Node startup parameters: ['node', 'C:\\Users\\kumarmt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js', '51890']</msg>
+<msg time="2026-05-22T16:09:59.044842" level="INFO">Successfully created browser with options: {"browser":"firefox","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\kumarmt\\Music\\Automation_RobotFramework\\browser\\traces\\d0ee3ad2-1c30-4d6c-b62d-d76167a2ba7b"}</msg>
+<msg time="2026-05-22T16:09:59.044842" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": true,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2026-05-22T16:09:59.233484" level="INFO">Successfully created context. </msg>
+<msg time="2026-05-22T16:09:59.233484" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2026-05-22T16:10:10.648129" level="INFO">Successfully initialized new page object and opened url: https://rahulshettyacademy.com/client/#/auth/login</msg>
+<arg>${url}</arg>
+<arg>firefox</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="PASS" start="2026-05-22T16:09:52.220025" elapsed="18.428104"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-22T16:10:15.650532" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-22T16:10:10.649119" elapsed="5.001413"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-05-22T16:10:15.653105" level="INFO">Fills the text 'mathankumar9488@gmail.com' in the given field.</msg>
+<arg>${username}</arg>
+<arg>mathankumar9488@gmail.com</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-05-22T16:10:15.651090" elapsed="0.200074"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-05-22T16:10:15.853360" level="INFO">Fills the text 'Mathan9488@1' in the given field.</msg>
+<arg>${password}</arg>
+<arg>Mathan9488@1</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-05-22T16:10:15.851164" elapsed="0.082963"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-05-22T16:10:15.936237" level="INFO">Clicks the element '//*[@id="login"]'.</msg>
+<arg>${submit}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-05-22T16:10:15.934127" elapsed="0.229875"/>
+</kw>
+<status status="PASS" start="2026-05-22T16:09:52.218446" elapsed="23.947123"/>
+</kw>
+<msg time="2026-05-22T16:10:16.176723" level="INFO">Set timeout to: 10000</msg>
+<msg time="2026-05-22T16:10:16.210405" level="INFO">Switching context to context=87e508dc-4571-4140-9483-0d98a8c96e70 in CURRENT</msg>
+<msg time="2026-05-22T16:10:16.238613" level="INFO">Successfully changed active context: context=87e508dc-4571-4140-9483-0d98a8c96e70</msg>
+<msg time="2026-05-22T16:10:16.250551" level="INFO">Switching browser to CURRENT</msg>
+<msg time="2026-05-22T16:10:16.260822" level="INFO">Returned active browser id. CURRENT</msg>
+<msg time="2026-05-22T16:10:16.260822" level="INFO">Switching browser to browser=58ee4fdd-b45b-4f52-bac2-96c52827f967</msg>
+<msg time="2026-05-22T16:10:16.270765" level="INFO">Successfully changed active browser: browser=58ee4fdd-b45b-4f52-bac2-96c52827f967</msg>
+<msg time="2026-05-22T16:10:16.272322" level="INFO">Switching context to CURRENT in CURRENT</msg>
+<msg time="2026-05-22T16:10:16.283147" level="INFO">Returned active context id: CURRENT</msg>
+<msg time="2026-05-22T16:10:16.285167" level="INFO">Switching context to context=87e508dc-4571-4140-9483-0d98a8c96e70 in CURRENT</msg>
+<msg time="2026-05-22T16:10:16.304252" level="INFO">Successfully changed active context: context=87e508dc-4571-4140-9483-0d98a8c96e70</msg>
+<msg time="2026-05-22T16:10:16.399124" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-05-22T16:09:52.217385" elapsed="23.949215"/>
+</test>
+<status status="PASS" start="2026-05-22T16:09:51.800909" elapsed="24.602309"/>
+</suite>
+<suite id="s1-s1-s2" name="orderCompletion" source="C:\Users\kumarmt\Music\Automation_RobotFramework\Testcases\orderCompletion.robot">
+<test id="s1-s1-s2-t1" name="TC01" line="7">
+<kw name="LoginBrowser" owner="LoginDetails">
+<kw name="Open Browser" owner="Browser">
+<msg time="2026-05-22T16:10:16.514907" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2026-05-22T16:10:16.514907" level="INFO">Switching browser to browser=58ee4fdd-b45b-4f52-bac2-96c52827f967</msg>
+<msg time="2026-05-22T16:10:16.521969" level="INFO">Successfully changed active browser: browser=58ee4fdd-b45b-4f52-bac2-96c52827f967</msg>
+<msg time="2026-05-22T16:10:16.521969" level="INFO">Reusing existing browser with id: browser=58ee4fdd-b45b-4f52-bac2-96c52827f967</msg>
+<msg time="2026-05-22T16:10:16.523234" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": true,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2026-05-22T16:10:16.575940" level="INFO">Successfully created context. </msg>
+<msg time="2026-05-22T16:10:16.576932" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2026-05-22T16:10:22.152605" level="INFO">Successfully initialized new page object and opened url: https://rahulshettyacademy.com/client/#/auth/login</msg>
+<arg>${url}</arg>
+<arg>firefox</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="PASS" start="2026-05-22T16:10:16.512906" elapsed="5.639699"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-22T16:10:27.154108" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-22T16:10:22.153736" elapsed="5.000887"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-05-22T16:10:27.156643" level="INFO">Fills the text 'mathankumar9488@gmail.com' in the given field.</msg>
+<arg>${username}</arg>
+<arg>mathankumar9488@gmail.com</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-05-22T16:10:27.154623" elapsed="0.123455"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-05-22T16:10:27.280658" level="INFO">Fills the text 'Mathan9488@1' in the given field.</msg>
+<arg>${password}</arg>
+<arg>Mathan9488@1</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-05-22T16:10:27.278078" elapsed="0.080917"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-05-22T16:10:27.361995" level="INFO">Clicks the element '//*[@id="login"]'.</msg>
+<arg>${submit}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-05-22T16:10:27.359990" elapsed="0.195208"/>
+</kw>
+<status status="PASS" start="2026-05-22T16:10:16.511908" elapsed="11.043290"/>
+</kw>
+<msg time="2026-05-22T16:10:27.563637" level="INFO">Set timeout to: 10000</msg>
+<msg time="2026-05-22T16:10:27.580546" level="INFO">Switching context to context=13a8cde0-b6d9-4c4a-8c19-96960fe7412f in CURRENT</msg>
+<msg time="2026-05-22T16:10:27.612465" level="INFO">Successfully changed active context: context=13a8cde0-b6d9-4c4a-8c19-96960fe7412f</msg>
+<msg time="2026-05-22T16:10:27.625744" level="INFO">Switching browser to CURRENT</msg>
+<msg time="2026-05-22T16:10:27.631724" level="INFO">Returned active browser id. CURRENT</msg>
+<msg time="2026-05-22T16:10:27.632934" level="INFO">Switching browser to browser=58ee4fdd-b45b-4f52-bac2-96c52827f967</msg>
+<msg time="2026-05-22T16:10:27.643451" level="INFO">Successfully changed active browser: browser=58ee4fdd-b45b-4f52-bac2-96c52827f967</msg>
+<msg time="2026-05-22T16:10:27.644457" level="INFO">Switching context to CURRENT in CURRENT</msg>
+<msg time="2026-05-22T16:10:27.651692" level="INFO">Returned active context id: CURRENT</msg>
+<msg time="2026-05-22T16:10:27.653697" level="INFO">Switching context to context=13a8cde0-b6d9-4c4a-8c19-96960fe7412f in CURRENT</msg>
+<msg time="2026-05-22T16:10:27.678466" level="INFO">Successfully changed active context: context=13a8cde0-b6d9-4c4a-8c19-96960fe7412f</msg>
+<msg time="2026-05-22T16:10:27.774197" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-05-22T16:10:16.496802" elapsed="11.059815"/>
+</test>
+<test id="s1-s1-s2-t2" name="Tc02" line="9">
+<kw name="OrderCompletion" owner="orderCompletion">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-05-22T16:10:57.973318" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2026-05-22T16:10:57.973318" level="INFO">See also file:///C:/Users/kumarmt/Music/Automation_RobotFramework/playwright-log-1779446392094231800.txt for additional details.</msg>
+<msg time="2026-05-22T16:11:08.252916" level="FAIL">Error: Could not find active page</msg>
+<arg>${dashboard}</arg>
+<arg>enabled</arg>
+<arg>timeout=30s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="FAIL" start="2026-05-22T16:10:27.917113" elapsed="40.352663">Error: Could not find active page</status>
+</kw>
+<status status="FAIL" start="2026-05-22T16:10:27.915100" elapsed="40.354676">Error: Could not find active page</status>
+</kw>
+<msg time="2026-05-22T16:11:08.275776" level="INFO">No context open.</msg>
+<status status="FAIL" start="2026-05-22T16:10:27.901066" elapsed="40.369712">Error: Could not find active page</status>
+</test>
+<status status="FAIL" start="2026-05-22T16:10:16.429841" elapsed="51.852672"/>
+</suite>
+<status status="FAIL" start="2026-05-22T16:09:51.796373" elapsed="76.495206"/>
+</suite>
+<status status="FAIL" start="2026-05-22T16:09:51.737784" elapsed="76.555325"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Automation RobotFramework" id="s1" pass="2" fail="1" skip="0">Automation RobotFramework</stat>
+<stat name="Testcases" id="s1-s1" pass="2" fail="1" skip="0">Automation RobotFramework.Testcases</stat>
+<stat name="LoginDetails" id="s1-s1-s1" pass="1" fail="0" skip="0">Automation RobotFramework.Testcases.LoginDetails</stat>
+<stat name="orderCompletion" id="s1-s1-s2" pass="1" fail="1" skip="0">Automation RobotFramework.Testcases.orderCompletion</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-05-22T16:09:52.221080" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2026-05-22T16:10:16.514907" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+</errors>
+</robot>

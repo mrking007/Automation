@@ -1,0 +1,37 @@
+{"level":30,"time":"2026-05-22T10:30:36.442Z","pid":41828,"hostname":"BAKUMARMT","msg":"Listening on 56048"}
+(node:41828) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2026-05-22T10:30:36.991Z","pid":41828,"hostname":"BAKUMARMT","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-05-22T10:30:46.032Z","pid":41828,"hostname":"BAKUMARMT","msg":"Adding browser to stack: firefox, version: 131.0"}
+{"level":30,"time":"2026-05-22T10:30:46.034Z","pid":41828,"hostname":"BAKUMARMT","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-05-22T10:30:46.034Z","pid":41828,"hostname":"BAKUMARMT","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-05-22T10:30:46.046Z","pid":41828,"hostname":"BAKUMARMT","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-05-22T10:30:46.046Z","pid":41828,"hostname":"BAKUMARMT","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2026-05-22T10:30:46.047Z","pid":41828,"hostname":"BAKUMARMT","msg":"Trace file: "}
+{"level":30,"time":"2026-05-22T10:30:46.151Z","pid":41828,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-22T10:30:46.153Z","pid":41828,"hostname":"BAKUMARMT","msg":"End of node method newContext"}
+{"level":30,"time":"2026-05-22T10:30:46.166Z","pid":41828,"hostname":"BAKUMARMT","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-05-22T10:30:46.167Z","pid":41828,"hostname":"BAKUMARMT","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2026-05-22T10:37:39.108Z","pid":41828,"hostname":"BAKUMARMT","msg":"Removed page=e55b339e-1eb7-4205-8537-d8257d6cecc4 from context=80bf9759-e422-431a-9378-7e7e942ff605 page stack"}
+{"level":30,"time":"2026-05-22T10:39:23.820Z","pid":41828,"hostname":"BAKUMARMT","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+browserContext.newPage: Target page, context or browser has been closed
+    at _newPage (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10965:54)
+    at newPage (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11266:22)
+    at async PlaywrightServer.newPage (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11611:28)
+=============================================================
+{"level":30,"time":"2026-05-22T10:39:23.919Z","pid":41828,"hostname":"BAKUMARMT","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9508:11)
+    at takeScreenshot (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9552:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11611:34)
+    at Object.onReceiveHalfClose (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-05-22T10:39:23.920Z","pid":41828,"hostname":"BAKUMARMT","msg":"Error of node method  takeScreenshot"}
