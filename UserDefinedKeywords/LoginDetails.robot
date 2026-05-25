@@ -14,3 +14,4 @@ LoginBrowser
     IF    ${response.status} != 200
             Fail    ${response.body}
     END
+    
