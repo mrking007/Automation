@@ -1,7 +1,7 @@
 *** Variables ***
 ${dashboard}    https://rahulshettyacademy.com/client/#/dashboard/dash
 ${orderItem}    //*[text()="ZARA COAT 3"]
-${AddToCart}    (//*[text()="Add To Cart"])[2]
+${AddToCart}    (//button[contains(@class,"btn w-10 rounded")])[1]
 ${thoastMessage}    //*[@role="alert"]
 ${cartPage}    //*[@routerlink="/dashboard/cart"]
 ${checkOut}    //*[text()="Checkout"]
