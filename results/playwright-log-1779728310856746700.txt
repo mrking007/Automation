@@ -1,0 +1,90 @@
+{"level":30,"time":"2026-05-25T16:58:33.926Z","pid":21044,"hostname":"BAKUMARMT","msg":"Listening on 58448"}
+(node:21044) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10982:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11598:59)
+    at PlaywrightServer.setTimeout (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11837:57)
+    at Object.onReceiveHalfClose (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-05-25T16:58:34.409Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-05-25T16:58:41.241Z","pid":21044,"hostname":"BAKUMARMT","msg":"Adding browser to stack: firefox, version: 131.0"}
+{"level":30,"time":"2026-05-25T16:58:41.243Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-05-25T16:58:41.242Z","pid":21044,"hostname":"BAKUMARMT","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-05-25T16:58:41.252Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-05-25T16:58:41.253Z","pid":21044,"hostname":"BAKUMARMT","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2026-05-25T16:58:41.253Z","pid":21044,"hostname":"BAKUMARMT","msg":"Trace file: "}
+{"level":30,"time":"2026-05-25T16:58:41.375Z","pid":21044,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-25T16:58:41.376Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method newContext"}
+{"level":30,"time":"2026-05-25T16:58:41.387Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-05-25T16:58:41.388Z","pid":21044,"hostname":"BAKUMARMT","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2026-05-25T16:58:48.674Z","pid":21044,"hostname":"BAKUMARMT","msg":"Video path: undefined"}
+{"level":30,"time":"2026-05-25T16:58:48.674Z","pid":21044,"hostname":"BAKUMARMT","msg":"Changed active page"}
+{"level":30,"time":"2026-05-25T16:58:53.050Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method newPage"}
+{"level":30,"time":"2026-05-25T16:58:53.072Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-25T16:58:53.073Z","pid":21044,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@id=\"userEmail\"] in page."}
+{"level":30,"time":"2026-05-25T16:58:53.242Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-25T16:58:53.253Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-25T16:58:53.254Z","pid":21044,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@id=\"userPassword\"] in page."}
+{"level":30,"time":"2026-05-25T16:58:53.369Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-25T16:58:53.401Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method waitForResponse"}
+{"level":30,"time":"2026-05-25T16:58:53.416Z","pid":21044,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@id=\"login\"] in page."}
+{"level":30,"time":"2026-05-25T16:58:53.415Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-25T16:58:53.683Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method click"}
+{"level":30,"time":"2026-05-25T16:58:53.833Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method waitForResponse"}
+{"level":30,"time":"2026-05-25T16:58:53.904Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-05-25T16:58:53.905Z","pid":21044,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with (//button[contains(@class,\"btn w-10 rounded\")])[1] in page."}
+{"level":30,"time":"2026-05-25T16:58:54.544Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-05-25T16:58:54.563Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-25T16:58:54.563Z","pid":21044,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with (//button[contains(@class,\"btn w-10 rounded\")])[1] in page."}
+{"level":30,"time":"2026-05-25T16:58:54.777Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method click"}
+{"level":30,"time":"2026-05-25T16:58:54.820Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method getText"}
+{"level":30,"time":"2026-05-25T16:58:54.821Z","pid":21044,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@role=\"alert\"] in page."}
+{"level":30,"time":"2026-05-25T16:58:55.983Z","pid":21044,"hostname":"BAKUMARMT","msg":"Retrieved text for element //*[@role=\"alert\"] containing Product Added To Cart"}
+{"level":30,"time":"2026-05-25T16:58:55.984Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method getText"}
+{"level":30,"time":"2026-05-25T16:58:56.021Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-25T16:58:56.021Z","pid":21044,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //button[@routerlink='/dashboard/cart'] in page."}
+{"level":30,"time":"2026-05-25T16:58:56.351Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method click"}
+{"level":30,"time":"2026-05-25T16:58:56.366Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method goTo"}
+{"level":30,"time":"2026-05-25T16:58:56.435Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method goTo"}
+{"level":30,"time":"2026-05-25T16:58:56.449Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-25T16:58:56.449Z","pid":21044,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[text()=\"Checkout\"] in page."}
+{"level":30,"time":"2026-05-25T16:58:56.793Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method click"}
+{"level":30,"time":"2026-05-25T16:58:56.809Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-05-25T16:58:56.809Z","pid":21044,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Select Country\"] in page."}
+{"level":30,"time":"2026-05-25T16:58:57.228Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-05-25T16:58:57.243Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-25T16:58:57.243Z","pid":21044,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Select Country\"] in page."}
+{"level":30,"time":"2026-05-25T16:58:57.428Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-25T16:58:57.441Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-05-25T16:58:57.442Z","pid":21044,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[text()=\"Place Order \"] in page."}
+{"level":30,"time":"2026-05-25T16:58:57.634Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-05-25T16:58:57.648Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-25T16:58:57.648Z","pid":21044,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[text()=\"Place Order \"] in page."}
+{"level":30,"time":"2026-05-25T16:58:58.001Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method click"}
+{"level":30,"time":"2026-05-25T16:58:58.013Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method getText"}
+{"level":30,"time":"2026-05-25T16:58:58.013Z","pid":21044,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@aria-label=\"Order Placed Successfully\"] in page."}
+{"level":50,"time":"2026-05-25T16:59:18.032Z","pid":21044,"hostname":"BAKUMARMT","err":{"type":"TimeoutError","message":"locator.elementHandle: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//*[@aria-label=\"Order Placed Successfully\"]')\u001b[22m\n","stack":"locator.elementHandle: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//*[@aria-label=\"Order Placed Successfully\"]')\u001b[22m\n\n    at getTextContent (C:\\Users\\kumarmt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10282:33)\n    at getText (C:\\Users\\kumarmt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10296:21)\n    at async PlaywrightServer.getText (C:\\Users\\kumarmt\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:11611:28)","name":"TimeoutError"},"msg":"locator.elementHandle: Timeout 20000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//*[@aria-label=\"Order Placed Successfully\"]')\u001b[22m\n"}
+{"level":30,"time":"2026-05-25T16:59:18.033Z","pid":21044,"hostname":"BAKUMARMT","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Timeout 20000ms exceeded.
+Call log:
+  [2m- waiting for locator('//*[@aria-label="Order Placed Successfully"]')[22m
+
+    at getTextContent (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10282:33)
+    at getText (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10296:21)
+    at async PlaywrightServer.getText (C:\Users\kumarmt\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11611:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2026-05-25T16:59:18.107Z","pid":21044,"hostname":"BAKUMARMT","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2026-05-25T16:59:18.107Z","pid":21044,"hostname":"BAKUMARMT","Take screenshot with options: ":{"path":"C:\\Users\\kumarmt\\Music\\Automation_RobotFramework\\results\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":20000,"omitBackground":false}}
+{"level":30,"time":"2026-05-25T16:59:18.258Z","pid":21044,"hostname":"BAKUMARMT","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2026-05-25T17:02:51.645Z","pid":21044,"hostname":"BAKUMARMT","msg":"Removed page=6bd258f9-2bb9-443c-8c31-309304be4017 from context=18cbdeba-9b8f-44fc-8167-12f46d08b0c7 page stack"}

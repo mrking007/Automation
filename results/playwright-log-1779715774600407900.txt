@@ -15,3 +15,61 @@ Error: Browser has been closed.
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
 {"level":30,"time":"2026-05-25T13:29:36.629Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-05-25T13:29:41.555Z","pid":34024,"hostname":"BAKUMARMT","msg":"Adding browser to stack: firefox, version: 131.0"}
+{"level":30,"time":"2026-05-25T13:29:41.556Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-05-25T13:29:41.556Z","pid":34024,"hostname":"BAKUMARMT","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-05-25T13:29:41.564Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-05-25T13:29:41.565Z","pid":34024,"hostname":"BAKUMARMT","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2026-05-25T13:29:41.565Z","pid":34024,"hostname":"BAKUMARMT","msg":"Trace file: "}
+{"level":30,"time":"2026-05-25T13:29:41.698Z","pid":34024,"hostname":"BAKUMARMT","msg":"Changed active context"}
+{"level":30,"time":"2026-05-25T13:29:41.699Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method newContext"}
+{"level":30,"time":"2026-05-25T13:29:41.710Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-05-25T13:29:41.710Z","pid":34024,"hostname":"BAKUMARMT","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2026-05-25T13:29:49.882Z","pid":34024,"hostname":"BAKUMARMT","msg":"Video path: undefined"}
+{"level":30,"time":"2026-05-25T13:29:49.882Z","pid":34024,"hostname":"BAKUMARMT","msg":"Changed active page"}
+{"level":30,"time":"2026-05-25T13:29:52.450Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method newPage"}
+{"level":30,"time":"2026-05-25T13:29:52.466Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-25T13:29:52.467Z","pid":34024,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@id=\"userEmail\"] in page."}
+{"level":30,"time":"2026-05-25T13:29:52.631Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-25T13:29:52.640Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-25T13:29:52.640Z","pid":34024,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@id=\"userPassword\"] in page."}
+{"level":30,"time":"2026-05-25T13:29:52.734Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-25T13:29:52.773Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method waitForResponse"}
+{"level":30,"time":"2026-05-25T13:29:52.799Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-25T13:29:52.800Z","pid":34024,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@id=\"login\"] in page."}
+{"level":30,"time":"2026-05-25T13:29:53.049Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method click"}
+{"level":30,"time":"2026-05-25T13:29:53.204Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method waitForResponse"}
+{"level":30,"time":"2026-05-25T13:29:53.285Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-05-25T13:29:53.287Z","pid":34024,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with (//button[contains(@class,\"btn w-10 rounded\")])[1] in page."}
+{"level":30,"time":"2026-05-25T13:29:54.073Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-05-25T13:29:54.087Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-25T13:29:54.087Z","pid":34024,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with (//button[contains(@class,\"btn w-10 rounded\")])[1] in page."}
+{"level":30,"time":"2026-05-25T13:29:54.253Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method click"}
+{"level":30,"time":"2026-05-25T13:29:54.301Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method getText"}
+{"level":30,"time":"2026-05-25T13:29:54.303Z","pid":34024,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[@role=\"alert\"] in page."}
+{"level":30,"time":"2026-05-25T13:29:55.490Z","pid":34024,"hostname":"BAKUMARMT","msg":"Retrieved text for element //*[@role=\"alert\"] containing Product Added To Cart"}
+{"level":30,"time":"2026-05-25T13:29:55.490Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method getText"}
+{"level":30,"time":"2026-05-25T13:29:55.519Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-25T13:29:55.519Z","pid":34024,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //button[@routerlink='/dashboard/cart'] in page."}
+{"level":30,"time":"2026-05-25T13:29:55.776Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method click"}
+{"level":30,"time":"2026-05-25T13:29:55.786Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method goTo"}
+{"level":30,"time":"2026-05-25T13:29:55.819Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method goTo"}
+{"level":30,"time":"2026-05-25T13:29:55.830Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-25T13:29:55.830Z","pid":34024,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[text()=\"Checkout\"] in page."}
+{"level":30,"time":"2026-05-25T13:29:56.120Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method click"}
+{"level":30,"time":"2026-05-25T13:29:56.138Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-05-25T13:29:56.138Z","pid":34024,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Select Country\"] in page."}
+{"level":30,"time":"2026-05-25T13:29:56.345Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-05-25T13:29:56.356Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-05-25T13:29:56.356Z","pid":34024,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //input[@placeholder=\"Select Country\"] in page."}
+{"level":30,"time":"2026-05-25T13:29:56.531Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method fillText"}
+{"level":30,"time":"2026-05-25T13:29:56.544Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-25T13:29:56.544Z","pid":34024,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with (//span[contains(@class,\"ng-star-inserted\")])[2] in page."}
+{"level":30,"time":"2026-05-25T13:30:06.597Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method click"}
+{"level":30,"time":"2026-05-25T13:30:06.605Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-05-25T13:30:06.605Z","pid":34024,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[text()=\"Place Order \"] in page."}
+{"level":30,"time":"2026-05-25T13:30:06.639Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-05-25T13:30:06.652Z","pid":34024,"hostname":"BAKUMARMT","msg":"Start of node method click"}
+{"level":30,"time":"2026-05-25T13:30:06.653Z","pid":34024,"hostname":"BAKUMARMT","msg":"Strict mode is enabled, find Locator with //*[text()=\"Place Order \"] in page."}
+{"level":30,"time":"2026-05-25T13:30:06.809Z","pid":34024,"hostname":"BAKUMARMT","msg":"End of node method click"}
+{"level":30,"time":"2026-05-25T16:07:48.259Z","pid":34024,"hostname":"BAKUMARMT","msg":"Removed page=48129540-72c2-4d98-87b6-d926110b50b7 from context=634d19c2-997f-4038-8eef-bd8061ce9c76 page stack"}

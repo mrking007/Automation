@@ -9,5 +9,6 @@ ${toastMessage}    //*[@aria-label="Product Added To Cart"]
 ${selectCountry}    //input[@placeholder="Select Country"]
 ${placeOrder}    //*[text()="Place Order "]
 ${cartUrl}    https://rahulshettyacademy.com/client/#/dashboard/cart
-${clickSearch}    (//span[contains(@class,"ng-star-inserted")])[2]
-${expected}     Product Added To Cart 
+${clickSearch}    (//*[@class="fa fa-search"])[2]
+${expected}     Product Added To Cart
+${ExpectedorderConformationMessage}      Order Placed Successfully 

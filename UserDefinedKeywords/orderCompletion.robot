@@ -18,10 +18,13 @@ OrderCompletion
     Go To    https://rahulshettyacademy.com/client/#/dashboard/cart
     Click    ${checkOut}
     Wait For Elements State    ${selectCountry}    enabled    20s
-    Fill Text    ${selectCountry}     India
-    Click    ${clickSearch}
+    Fill Text    ${selectCountry}     in
+    Wait For Elements State    ta-results      visible    timeout=5s
+    Click    section.ta-results >> text=" Argentina"
     Wait For Elements State    ${placeOrder}    enabled    20s
     Click    ${placeOrder}
+    # ${actual}    Get Text    //*[@aria-label="Order Placed Successfully"]
+    # Should Be Equal As Strings    ${actual}    ${ExpectedorderConformationMessage}
 
 
     
